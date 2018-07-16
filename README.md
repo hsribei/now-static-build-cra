@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 It demonstrates deployment with Now as a [static deployment built from
-a Dockerfile](/blog/dockerfile-static).
+a Dockerfile](https://zeit.co/blog/dockerfile-static).
 
 To create this project, we first ran:
 
