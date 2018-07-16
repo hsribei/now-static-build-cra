@@ -10,6 +10,6 @@ npx create-react-app cra
 ```
 
 Inside the `cra` directory, we added three files:
-- `now.json` to indicate that the deployment type is `static`
-- `Dockerfile` to build using Node.js and runnning `yarn build` as instructed by CRA
-- `.dockerignore` to make sure only the sources are given to Docker, and not artifacts like `node_modules`
+- [`now.json`](https://github.com/zeit/now-dockerfile-static-cra/blob/master/now.json) to indicate that the deployment type is `static`
+- [`Dockerfile`](https://github.com/zeit/now-dockerfile-static-cra/blob/master/Dockerfile) to build using Node.js and runnning `yarn build` as instructed by CRA
+- [`.dockerignore`](https://github.com/zeit/now-dockerfile-static-cra/blob/master/.dockerignore) to make sure only the sources are given to Docker, and not artifacts like `node_modules`
