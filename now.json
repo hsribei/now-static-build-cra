@@ -1,6 +1,8 @@
 {
   "type": "static",
-  "env": {
-    "PRINT_ME": "please"
+  "build": {
+    "env": {
+      "PRINT_ME": "please"
+    }
   }
 }
