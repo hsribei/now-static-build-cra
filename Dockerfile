@@ -3,4 +3,6 @@ WORKDIR /usr/src
 COPY yarn.lock package.json ./
 RUN yarn
 COPY . .
+# This should output `PRINT_ME=please` among the environment variables
+RUN env
 RUN yarn build && mv build /public
